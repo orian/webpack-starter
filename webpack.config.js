@@ -57,15 +57,25 @@ module.exports = {
             },
             {
                 test: /\.(html)$/,
-                use: {
-                    loader: 'html-loader',
-                    options: {
-                        attrs: [
-                            ':data-src',
-                            'img:src'
-                        ]
+
+                // ['file-loader?name=[name].[ext]', 'extract-loader', 'html-loader'],
+                use: [
+                    {
+                        loader: 'file-loader?name=[name].[ext]'
+                    },
+                    {
+                        loader: 'extract-loader'
+                    },
+                    {
+                        loader: 'html-loader',
+                        options: {
+                            attrs: [
+                                ':data-src',
+                                'img:src'
+                            ]
+                        }
                     }
-                }
+                ],
             }
         ]
     },
