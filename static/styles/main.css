@@ -1,0 +1,24 @@
+#console > p {
+    border-top: 1px solid gray;
+}
+
+#incoming-calls {
+    width: 470px;
+    height: 308px;
+    background: url("../images/incoming_calls.png");
+}
+
+.content {
+    width: 800px;
+    margin: auto;
+    background-color: #fbfbfb;
+    padding: 10px;
+
+    -webkit-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.75);
+}
+
+body {
+    background-color: #f2f2f2;
+}

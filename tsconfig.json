@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "module": "es6",
+    "target": "es5",
+    "outDir": "build",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": [ "es2015", "dom" ],
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "allowJs": true,
+    "typeRoots": [
+      "./node_modules/@types"
+    ]//,
+//    "types": [
+//      "hammerjs",
+//      "handlebars"
+//    ]
+  },
+  "include": [
+    "**/*.ts"
+  ]
+}
