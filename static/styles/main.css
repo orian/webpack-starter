@@ -8,15 +8,15 @@
     background: url("../images/incoming_calls.png");
 }
 
-.content {
+#content {
     width: 800px;
     margin: auto;
     background-color: #fbfbfb;
     padding: 10px;
 
-    -webkit-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.75);
-    box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.75);
 }
 
 body {
